@@ -86,6 +86,7 @@ public class RunTestDeo {
 		workbook.write(outFile);
 		outFile.close();
 		workbook.close();
+		System.out.println("Test Completed");
 
 	}
 }
